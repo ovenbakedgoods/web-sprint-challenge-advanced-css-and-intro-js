@@ -161,14 +161,25 @@ button:hover{
     {
         text-align: center;
         width: 200%;
+        margin-left: 3rem;
         
     }
 
     .name
-    {
+    { 
         text-align: center;
-     
         width: 5%;
+        white-space: nowrap;
+        margin-left: 6rem;
+    }
+
+    nav
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 55%;
+        
     }
 
   }
